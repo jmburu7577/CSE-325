@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="320" viewBox="0 0 512 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a83232"/>
+      <stop offset="100%" stop-color="#7a2323"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="320" fill="url(#bg)"/>
+  <rect x="56" y="56" width="400" height="208" rx="16" fill="#f7c736" />
+  <text x="256" y="170" font-size="32" font-weight="bold" text-anchor="middle" fill="#333">Buffalo Chicken</text>
+  <text x="256" y="210" font-size="20" text-anchor="middle" fill="#333">Spicy & Bleu Cheese</text>
+</svg>

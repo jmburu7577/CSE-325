@@ -1,0 +1,54 @@
+@inherits LayoutComponentBase
+
+<div class="top-bar">
+    <a class="logo" href="">
+        <img src="img/logo.svg" alt="" style="display:none" /> <!-- Placeholder for logo -->
+        BLAZING PIZZA
+    </a>
+
+    <a href="" class="nav-tab active">
+        <div class="nav-tab-content">
+            <img src="img/pizza-slice.svg" alt="" style="display:none" />
+            <span style="font-size: 1.5rem;">🍕</span><br />
+            GET PIZZA
+        </div>
+    </a>
+
+    <a href="myorders" class="nav-tab">
+        <div class="nav-tab-content">
+            <img src="img/bike.svg" alt="" style="display:none" />
+            <span style="font-size: 1.5rem;">🛵</span><br />
+            MY ORDERS
+        </div>
+    </a>
+
+    <div class="user-box">
+        <a href="authentication/login" class="sign-in-btn">Sign in</a>
+    </div>
+</div>
+
+<div class="content-container">
+    <div class="main-content">
+        @Body
+        
+        <footer class="footer mt-auto py-3">
+            <div class="container">
+                &copy; 2026 - BlazingPizza - James Mburu Maina - Kenya
+            </div>
+        </footer>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-title">Your Order</div>
+        <div class="flex-grow-1">
+            <div class="p-4 text-center text-muted" style="font-style: italic;">
+                Select a pizza<br />to get started
+            </div>
+        </div>
+        <div class="order-total">
+            <span>Total:</span>
+            <span class="font-weight-bold">KSh 0.00</span>
+            <!-- <button class="btn" disabled>Order ></button> -->
+        </div>
+    </div>
+</div>

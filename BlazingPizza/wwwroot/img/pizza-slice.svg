@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="320" viewBox="0 0 512 320">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bf2e2e"/>
+      <stop offset="100%" stop-color="#8f1f1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="320" fill="url(#g)"/>
+  <circle cx="256" cy="160" r="120" fill="#f7c736" />
+  <circle cx="210" cy="130" r="12" fill="#26b050"/>
+  <circle cx="260" cy="180" r="12" fill="#26b050"/>
+  <circle cx="300" cy="140" r="12" fill="#26b050"/>
+  <text x="256" y="300" font-size="28" font-weight="bold" text-anchor="middle" fill="#fff">Blazing Pizza</text>
+</svg>

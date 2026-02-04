@@ -1,0 +1,31 @@
+@page "/"
+
+<PageTitle>Blazing Pizza</PageTitle>
+
+<div class="pizza-cards">
+    @if (specials != null)
+    {
+        @foreach (var pizza in specials)
+        {
+            <div class="pizza-special" style="background-image: url('@pizza.ImageUrl')">
+                <div class="pizza-info">
+                    <span class="pizza-title">@pizza.Name</span>
+                    <span class="pizza-desc">@pizza.Description</span>
+                    <span class="price-tag">@pizza.GetFormattedPrice()</span>
+                </div>
+            </div>
+        }
+    }
+</div>
+
+@code {
+    List<Pizza> specials = new List<Pizza>
+    {
+        new Pizza { Id = 1, Name = "Buffalo Chicken", Description = "Spicy chicken, hot sauce and bleu cheese, guaranteed to warm you up", Price = 12.75m, ImageUrl = "img/pizzas/buffalo-chicken.svg" },
+        new Pizza { Id = 2, Name = "The Baconatorizor", Description = "It has EVERY kind of bacon", Price = 11.99m, ImageUrl = "img/pizzas/bacon.svg" },
+        new Pizza { Id = 3, Name = "Veggie Delight", Description = "It's like salad, but on a pizza", Price = 11.50m, ImageUrl = "img/pizzas/salad.svg" },
+        new Pizza { Id = 4, Name = "Mushroom Lovers", Description = "It has mushrooms. Isn't that obvious?", Price = 11.00m, ImageUrl = "img/pizzas/mushroom.svg" },
+        new Pizza { Id = 5, Name = "Classic Pepperoni", Description = "It's the pizza you grew up with, but Blazing hot!", Price = 10.50m, ImageUrl = "img/pizzas/pepperoni.svg" },
+        new Pizza { Id = 6, Name = "The Brit", Description = "When in London...", Price = 10.25m, ImageUrl = "img/pizzas/brit.svg" },
+    };
+}

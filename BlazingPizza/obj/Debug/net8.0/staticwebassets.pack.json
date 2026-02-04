@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazingPizza.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazingPizza.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\img\\pizza-slice.svg",
+      "PackagePath": "staticwebassets\\img\\pizza-slice.svg"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\img\\pizzas\\bacon.svg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\bacon.svg"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\img\\pizzas\\brit.svg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\brit.svg"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\img\\pizzas\\buffalo-chicken.svg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\buffalo-chicken.svg"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\img\\pizzas\\mushroom.svg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\mushroom.svg"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\img\\pizzas\\pepperoni.svg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\pepperoni.svg"
+    },
+    {
+      "Id": "C:\\Users\\BYU\\Desktop\\CSE-325-1\\blazingpizza\\wwwroot\\img\\pizzas\\salad.svg",
+      "PackagePath": "staticwebassets\\img\\pizzas\\salad.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazingPizza.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazingPizza.props",
+      "PackagePath": "build\\BlazingPizza.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazingPizza.props",
+      "PackagePath": "buildMultiTargeting\\BlazingPizza.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazingPizza.props",
+      "PackagePath": "buildTransitive\\BlazingPizza.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
